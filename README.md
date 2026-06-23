@@ -75,7 +75,7 @@ CreditCardData.csv
 
 ---
 
-## 📊 Resultados com o Dataset Real (100k registros)
+## Resultados com o Dataset Real (100k registros)
 
 | Métrica | Resultado |
 |---|---|
@@ -91,7 +91,7 @@ CreditCardData.csv
 
 ---
 
-## 🧱 Estruturas de Dados Implementadas
+## Estruturas de Dados Implementadas
 
 ### Fila FIFO — Autorização de Crédito
 - Dois ponteiros (`inicio` e `fim`) para enqueue/dequeue em O(1)
@@ -107,7 +107,7 @@ CreditCardData.csv
 
 ---
 
-## 🔃 Algoritmo de Ordenação
+## Algoritmo de Ordenação
 
 **Merge Sort** foi escolhido sobre Quick Sort pela seguinte razão: o campo `valor` possui altíssima repetição no dataset (ex: R$17 aparece 2.153 vezes), o que pode degradar o Quick Sort para O(n²). O Merge Sort garante **O(n log n) em todos os casos** e é estável.
 
