@@ -25,7 +25,7 @@ Desenvolvido como projeto acadêmico da disciplina de **Estruturas de Dados**, o
 
 ---
 
-## ⚙️ Como Compilar e Executar
+## Como Compilar e Executar
 
 ### Pré-requisitos
 - GCC instalado
