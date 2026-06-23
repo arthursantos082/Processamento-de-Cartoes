@@ -1,16 +1,16 @@
-# 💳 Motor de Processamento de Transações Financeiras
+# Motor de Processamento de Transações Financeiras
 
 Sistema de backend desenvolvido em **C (padrão C11)** que simula o motor central de uma operadora de cartões, processando ~100.000 transações financeiras com estruturas de dados fundamentais.
 
 ---
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
 Desenvolvido como projeto acadêmico da disciplina de **Estruturas de Dados**, o sistema replica o ciclo de vida de uma transação financeira: leitura, higienização, armazenamento binário, ordenação, autorização, auditoria e geração de relatório.
 
 ---
 
-## 🗂️ Estrutura de Arquivos
+## Estrutura de Arquivos
 
 ```
 ├── transacao.h           # Cabeçalho central: struct, tipos e protótipos
@@ -48,7 +48,7 @@ make clean
 
 ---
 
-## 🔄 Fluxo do Sistema
+## Fluxo do Sistema
 
 ```
 CreditCardData.csv
@@ -112,13 +112,6 @@ CreditCardData.csv
 **Merge Sort** foi escolhido sobre Quick Sort pela seguinte razão: o campo `valor` possui altíssima repetição no dataset (ex: R$17 aparece 2.153 vezes), o que pode degradar o Quick Sort para O(n²). O Merge Sort garante **O(n log n) em todos os casos** e é estável.
 
 ---
-
-## 🤖 Declaração de Uso de IA
-
-Este projeto utilizou **Claude (Anthropic)** como ferramenta auxiliar para análise do dataset, estruturação da arquitetura modular, implementação do código C e redação da documentação técnica.
-
----
-
 ## 👤 Autor
 
 **Arthur Santos**  
