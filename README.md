@@ -112,7 +112,7 @@ CreditCardData.csv
 **Merge Sort** foi escolhido sobre Quick Sort pela seguinte razão: o campo `valor` possui altíssima repetição no dataset (ex: R$17 aparece 2.153 vezes), o que pode degradar o Quick Sort para O(n²). O Merge Sort garante **O(n log n) em todos os casos** e é estável.
 
 ---
-## 👤 Autor
+## Autor
 
 **Arthur Santos**  
 Repositório: [Processamento-de-Cartoes](https://github.com/arthursantos082/Processamento-de-Cartoes)
